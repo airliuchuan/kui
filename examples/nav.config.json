@@ -1,0 +1,53 @@
+{
+  "开发指南": [
+    {
+      "name": "index",
+      "path": "/",
+      "type": ["pages", ".vue"]
+    },
+    {
+      "name": "giud",
+      "path": "/giud",
+      "desc": "介绍",
+      "type": ["docs", ".md"]
+    }
+  ],
+  "组件": [
+    {
+      "desc": "基础组件",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "layout 布局",
+          "name": "layout",
+          "path": "/layout",
+          "type": ["docs", ".md"]
+        },
+        {
+          "desc": "Icon 图标",
+          "name": "icon",
+          "path": "/icon",
+          "type": ["docs", ".md"]
+        }
+      ]
+    },
+    {
+      "desc": "视图组件",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "Showmore 显示更多",
+          "name": "show-more",
+          "path": "/showmore",
+          "type": ["docs", ".md"]
+        },
+        {
+          "desc": "alert 警告",
+          "name": "alert",
+          "path": "/alert",
+          "type": ["docs", ".md"]
+        }
+      ]
+    }
+  ]
+}
